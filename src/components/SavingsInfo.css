@@ -1,0 +1,25 @@
+.savings-info {
+    padding: 2em;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.info-section img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 1em;
+}
+
+.info-section h3 {
+    margin: 0.5em 0;
+}
+
+.info-section p {
+    margin: 0;
+    text-align: left;
+}

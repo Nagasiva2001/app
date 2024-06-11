@@ -1,0 +1,27 @@
+/* src/components/Offers.css */
+.offers {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .offers h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .offer {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+  }
+  
