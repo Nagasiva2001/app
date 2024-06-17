@@ -12,6 +12,7 @@ import AppDownload from './components/AppDownload';
 import HomeLoan from './components/HomeLoan';
 import CreditCard from './components/CreditCard';
 import FixedDeposit from './components/FixedDeposit';
+import SignIn from './pages/SignIn';
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/HomeLoan" element={<HomeLoan />} />
         <Route path="/CreditCard" element={<CreditCard />} />
         <Route path="/FixedDeposit" element={<FixedDeposit />} />
+        <Route path="/signin" element={<SignIn />} />
         
 
 

@@ -14,6 +14,8 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="bd">
+
     <div className="page">
       <h1>Login</h1>
       <p>Please enter your credentials to log in to your account.</p>
@@ -41,6 +43,8 @@ const LoginPage = () => {
         <button type="submit" className="btn">Login</button>
       </form>
     </div>
+    </div>
+
   );
 };
 

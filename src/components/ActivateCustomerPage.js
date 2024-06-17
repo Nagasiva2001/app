@@ -14,6 +14,8 @@ const ActivateCustomerPage = () => {
   };
 
   return (
+    <div className="bd">
+
     <div className="page">
       <h1>Activate Customer</h1>
       <p>Please enter your account details to activate your account.</p>
@@ -40,6 +42,7 @@ const ActivateCustomerPage = () => {
         </div>
         <button type="submit" className="btn">Activate</button>
       </form>
+    </div>
     </div>
   );
 };

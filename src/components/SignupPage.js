@@ -16,6 +16,7 @@ const SignupPage = () => {
   };
 
   return (
+    <div className="bd">
     <div className="page">
       <h1>Sign Up</h1>
       <p>Please enter your details to create a new account.</p>
@@ -52,6 +53,7 @@ const SignupPage = () => {
         </div>
         <button type="submit" className="btn">Sign Up</button>
       </form>
+    </div>
     </div>
   );
 };
